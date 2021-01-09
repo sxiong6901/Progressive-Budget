@@ -11,7 +11,7 @@ request.onsuccess = function(event) {
   db = event.target.result;
 
   if (navigator.onLine) {
-    checkDB();
+    checkDatabase();
   }
 };
 
@@ -23,6 +23,7 @@ request.onerror = function(event) {
 function saveRecord(record) {
   const transaction = db.transaction(["pending"], "readwrite");
   const store = transaction.objectStore("pending");
+
   store.add(record);
 }
 
@@ -41,13 +42,18 @@ function checkDatabase() {
           "Content-Type": "application/json"
         }
       })
-      .then (response => response.json())
+      .then(response => {        
+        return response.json();
+      })
       .then(() => {
+        // delete records if successful
         const transaction = db.transaction(["pending"], "readwrite");
         const store = transaction.objectStore("pending");
         store.clear();
       });
-  }
+    }
+  };
 }
-}
+
+// listen for app coming back online
 window.addEventListener("online", checkDatabase);

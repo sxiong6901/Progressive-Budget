@@ -1,28 +1,29 @@
 {
-  "name": "develop",
+  "name": "budget-app",
   "version": "1.0.0",
-  "description": "* [Title](#Title)\r   * [Description](#Description)\r   * [Installation](#Installation)\r   * [Deployment](#Deployed)\r   * [License](#license)\r   * [Author](#Author)",
+  "description": "",
   "main": "server.js",
-  "dependencies": {
-    "compression": "^1.7.4",
-    "express": "^4.17.1",
-    "lite-server": "^2.6.1",
-    "mongoose": "^5.11.11",
-    "morgan": "^1.10.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "lite-server": "lite-server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sxiong6901/Progressive-Budget.git"
   },
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/sxiong6901/Progressive-Budget/issues"
   },
-  "homepage": "https://github.com/sxiong6901/Progressive-Budget#readme"
+  "homepage": "https://github.com/sxiong6901/Progressive-Budget#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "lite-server": "^2.5.3",
+    "mongoose": "^5.5.15",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {}
 }
