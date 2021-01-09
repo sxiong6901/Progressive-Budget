@@ -1,5 +1,3 @@
-const { events } = require("../models/transaction");
-
 let transactions = [];
 let myChart;
 
