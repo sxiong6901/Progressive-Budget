@@ -4,7 +4,11 @@
   "description": "* [Title](#Title)\r   * [Description](#Description)\r   * [Installation](#Installation)\r   * [Deployment](#Deployed)\r   * [License](#license)\r   * [Author](#Author)",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "lite-server": "^2.6.1",
+    "mongoose": "^5.11.11",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {},
   "scripts": {
