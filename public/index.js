@@ -1,3 +1,5 @@
+const { events } = require("../models/transaction");
+
 let transactions = [];
 let myChart;
 
@@ -153,8 +155,3 @@ document.querySelector("#sub-btn").onclick = function() {
   event.preventDefault();
   sendTransaction(false);
 };
-
-document.querySelector("#del-btn").addEventListener("click", function(event) {
-  event.preventDefault();
-  deletePending();
-});
