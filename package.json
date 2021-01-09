@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "* [Title](#Title)\r   * [Description](#Description)\r   * [Installation](#Installation)\r   * [Deployment](#Deployed)\r   * [License](#license)\r   * [Author](#Author)",
   "main": "server.js",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.17.1"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
