@@ -33,7 +33,7 @@ When brought back online:
 ## Deployed
 This App is deployed on Heroku: 
 
-![myimage-alt-tag]()
+![myimage-alt-tag](https://github.com/sxiong6901/Progressive-Budget/blob/main/public/Assets/Budget.JPG?raw=true)
 
 ## License
 MIT
