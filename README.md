@@ -31,7 +31,7 @@ When brought back online:
 * npm start
 
 ## Deployed
-This App is deployed on Heroku: 
+This App is deployed on Heroku: https://secure-wildwood-67723.herokuapp.com/
 
 ![myimage-alt-tag](https://github.com/sxiong6901/Progressive-Budget/blob/main/public/Assets/Budget.JPG?raw=true)
 
